@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Multipalusestate from './component/Multipalusestate';
 import Singalelineusestate from './component/Singalelineusestate';
+import Api from './component/Api';
 function App() {
   // [vairable,fonaction]
    const [count, setcount] = useState(0);
@@ -10,7 +11,7 @@ function App() {
    const [height, setheight] = useState("200px")
   return (
       <>
-    <div>
+    {/* <div>
       <h1>{count}</h1>
       <button onClick={() => setcount(count + 1)}>+</button>
       <button onClick={() => setcount(count - 1)}>-</button>
@@ -19,7 +20,8 @@ function App() {
       <button onClick={()=>setcolor("red" , setwidth("500px"), setheight("500px") )}>change_color</button>
   </div>
   <Multipalusestate/>
-  <Singalelineusestate/>
+  <Singalelineusestate/> */}
+  <Api/>
   </>
   );
 }

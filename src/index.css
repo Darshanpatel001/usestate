@@ -11,3 +11,118 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.form {
+  width: 350px;
+  height: 551px;
+  background: #1e1e1e;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form h1 {
+  width: 220px;
+  text-align: center;
+  color: #ff7200;
+  font-size: 22px;
+  background-color:transparent;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+  /* margin-left: 30px; */
+  margin: 0 auto;
+
+}
+.imgg{
+  height: 50%;
+  width: 50%;
+}
+.form input {
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid yellow;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.btn {
+  width: 240px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #ff7200;
+
+}
+
+.btn a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.form .link {
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.form .link a {
+  text-decoration: none;
+  color: #ff7300;
+}
+
+.liw {
+  padding-bottom: 10px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.form p {
+  color: #fff;
+}
+
+.icons a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.icons i {
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+
+}
+
+.icons i:hover {
+  color: #ff7200;
+}
