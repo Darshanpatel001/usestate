@@ -1,66 +1,12 @@
 {
   "user": [
     {
-      "firstname": "darshan",
-      "lastname": "satani",
-      "age": 22,
-      "email": "darshansatani@gmail.com",
-      "password": 12345,
-      "id": "4aa3"
-    },
-    {
-      "firstnamme": "darshan",
-      "lastnamme": "satani",
-      "age": 22,
-      "emaidl": "darshansatani@gmail.com",
-      "password": 12345,
-      "id": "ef72"
-    },
-    {
-      "id": "4969",
-      "firstname": "darshan",
-      "surname": "satani",
-      "age": 22
-    },
-    {
-      "id": "523b",
-      "firstname": "darshansatani001@gmail.com",
-      "lastname": "darshanpatel@gmail.com",
-      "age": "23",
-      "email": "Satani77**#",
-      "password": "mxmomo"
-    },
-    {
-      "id": "a8c1",
-      "firstname": "darshansatani001@gmail.com",
-      "lastname": "darshanpatel@gmail.com",
-      "age": "23",
-      "email": "mxmomo",
-      "password": "mxmomo"
-    },
-    {
-      "id": "bf49",
-      "firstname": "Darshan ",
-      "lastname": "satani",
-      "age": "23 ",
-      "email": "darshansatani@gmail.com",
-      "password": "12345 "
-    },
-    {
-      "id": "8307",
-      "firstname": "Darshan ",
-      "lastname": "satani",
-      "age": "23 ",
-      "email": "darshansatani@gmail.com",
-      "password": "12345 "
-    },
-    {
-      "id": "9023",
-      "firstname": "Darshan ",
-      "lastname": "satani",
-      "age": "23 ",
-      "email": "darshansatani@gmail.com",
-      "password": "123455"
+      "id": "4e71",
+      "firstname": "Darshan",
+      "lastname": "Satani",
+      "age": "",
+      "email": "darshanpatel4298@gmail.com",
+      "password": ""
     }
   ],
   "product": []

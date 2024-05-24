@@ -1,8 +1,10 @@
 
-import { useState } from 'react';
+import { useState  } from 'react';
 import Multipalusestate from './component/Multipalusestate';
 import Singalelineusestate from './component/Singalelineusestate';
 import Api from './component/Api';
+import Apicrud from './component/Apicrud';
+import Api_3 from './component/Api_3';
 function App() {
   // [vairable,fonaction]
    const [count, setcount] = useState(0);
@@ -21,7 +23,9 @@ function App() {
   </div>
   <Multipalusestate/>
   <Singalelineusestate/> */}
-  <Api/>
+  {/* <Api/> */}
+  {/* <Apicrud/> */}
+  <Api_3/>
   </>
   );
 }
