@@ -26,7 +26,7 @@ const Api_3 = () => {
             Email: Email.current.value,
             Password: Password.current.value
         };
-        axios.post("http://localhost30001/user", parson).then((response) => {
+        axios.post("http://localhost:30001/user", parson).then((response) => {
             console.log(response.data);
             Name.current.value = "";
             Email.current.value = "";
@@ -95,7 +95,7 @@ const Api_3 = () => {
                     {
                         parsondata.map((value, index) => {
                             return (
-                                <tr>
+                                <tr key={index}>
                                     <td>{index}</td>
                                     <td>{value.Name}</td>
                                     <td>{value.Email}</td>

@@ -20,7 +20,7 @@ const Api = () => {
   let password = useRef();
 
   async function getData() {
-    let res = await axios.get("http://localhost:30001/user");
+    let res = await axios.get("http://localhost:3000/user");
     setdata(res.data);
   }
 
@@ -41,8 +41,8 @@ const Api = () => {
 
   // delete data
   function deletedata(id) {
-    axios.delete(`http://localhost:30001/user/${id}`).then((res) => {
-      console.log(res);
+    axios.delete(`http://localhost:30001/user/${id}`).then((response) => {
+      console.log(response);
     });
     setdata(data.filter((val) => val.id !== id));
   }
@@ -65,7 +65,7 @@ const Api = () => {
 
   useEffect(() => {
     getData();
-  }, []);
+  }, []); 
 
   return (
     <React.Fragment>

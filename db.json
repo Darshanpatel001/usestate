@@ -1,12 +1,17 @@
 {
   "user": [
     {
-      "id": "4e71",
-      "firstname": "Darshan",
-      "lastname": "Satani",
-      "age": "",
+      "id": "95e8",
+      "name": "darshanpatel4298@gmail.coms",
       "email": "darshanpatel4298@gmail.com",
-      "password": ""
+      "password": "zccxc",
+      "pssword": "2"
+    },
+    {
+      "id": "8bbe",
+      "name": "Darshan",
+      "email": "darshanpatel4298@gmail.com",
+      "password": "Satani"
     }
   ],
   "product": []
